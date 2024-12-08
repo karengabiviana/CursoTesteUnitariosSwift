@@ -18,6 +18,8 @@
 		B86227F12D033D1C005BB285 /* CursoTestesUnitariosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86227F02D033D1C005BB285 /* CursoTestesUnitariosUITestsLaunchTests.swift */; };
 		B86227FF2D034375005BB285 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86227FE2D034375005BB285 /* StringUtils.swift */; };
 		B86228012D034654005BB285 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86228002D034654005BB285 /* StringExtensionTests.swift */; };
+		B8C6B1102D05209B001D2D30 /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C6B10F2D05209B001D2D30 /* AccountBalance.swift */; };
+		B8C6B1122D05298C001D2D30 /* AccountBalanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C6B1112D05298C001D2D30 /* AccountBalanceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		B86227F02D033D1C005BB285 /* CursoTestesUnitariosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoTestesUnitariosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B86227FE2D034375005BB285 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		B86228002D034654005BB285 /* StringExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
+		B8C6B10F2D05209B001D2D30 /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
+		B8C6B1112D05298C001D2D30 /* AccountBalanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 				B86227D62D033D1C005BB285 /* Assets.xcassets */,
 				B86227D82D033D1C005BB285 /* LaunchScreen.storyboard */,
 				B86227DB2D033D1C005BB285 /* Info.plist */,
+				B8C6B10F2D05209B001D2D30 /* AccountBalance.swift */,
 				B86227FD2D0342F2005BB285 /* Extensions */,
 			);
 			path = CursoTestesUnitarios;
@@ -120,6 +125,7 @@
 			children = (
 				B86227E42D033D1C005BB285 /* CursoTestesUnitariosTests.swift */,
 				B86228002D034654005BB285 /* StringExtensionTests.swift */,
+				B8C6B1112D05298C001D2D30 /* AccountBalanceTests.swift */,
 			);
 			path = CursoTestesUnitariosTests;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 				B86227D22D033D1A005BB285 /* ViewController.swift in Sources */,
 				B86227CE2D033D1A005BB285 /* AppDelegate.swift in Sources */,
 				B86227D02D033D1A005BB285 /* SceneDelegate.swift in Sources */,
+				B8C6B1102D05209B001D2D30 /* AccountBalance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +292,7 @@
 			files = (
 				B86228012D034654005BB285 /* StringExtensionTests.swift in Sources */,
 				B86227E52D033D1C005BB285 /* CursoTestesUnitariosTests.swift in Sources */,
+				B8C6B1122D05298C001D2D30 /* AccountBalanceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
